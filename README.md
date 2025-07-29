@@ -37,5 +37,5 @@ This project is part of my journey toward becoming a **Full Stack MERN Developer
 Feel free to check it out, fork the repo, and connect if you’re on a similar journey!
 
 👨‍💻 Rishabh Kashinath Sangam  
-🔗 [LinkedIn]([https://www.linkedin.com/in/yourusername](https://www.linkedin.com/in/rishabh-sangam-full-stack-developer/))  
+🔗 [LinkedIn]([(https://www.linkedin.com/in/rishabh-sangam-full-stack-developer/])  
 💼 Aspiring Full Stack Developer | MERN Stack Learner  
