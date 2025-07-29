@@ -8,10 +8,6 @@ This is a fully responsive landing page built using **Tailwind CSS**. It represe
 [👉 Click here to view the live page](#)  
 *(Add your GitHub Pages or Netlify link here)*
 
-## 📸 Preview
-
-![Screenshot](./Screenshot.png)  
-*(Make sure to rename and upload your screenshot image to this repo)*
 
 ## 🔨 Built With
 
