@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduVerse</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <nav class="w-full h-16 bg-white shadow-md px-6 md:px-16 flex items-center justify-between">
+    <div class="text-2xl font-bold text-blue-600">EduVerse</div>
+    <ul class="hidden md:flex gap-8 font-semibold text-gray-700">
+      <li class="hover:text-blue-600 cursor-pointer">Home</li>
+      <li class="hover:text-blue-600 cursor-pointer">Courses</li>
+      <li class="hover:text-blue-600 cursor-pointer">Contact</li>
+      <li class="hover:text-blue-600 cursor-pointer">About</li>
+    </ul>
+    <button class="px-5 py-1.5 bg-blue-600 hover:bg-blue-700 text-white rounded-full transition">Login</button>
+  </nav>
+
+  <!-- Student Section -->
+<section class="w-full bg-gray-100 px-4 md:px-12 py-12 flex flex-col md:flex-row items-center justify-between text-center md:text-left gap-10">
+  <!-- Text Content -->
+  <div class="md:w-1/2">
+    <h1 class="text-4xl md:text-6xl font-bold text-blue-600 leading-tight">Empowering Students</h1>
+    <p class="text-md md:text-lg mt-4 text-gray-700">
+      At EduVerse, we believe in empowering students through accessible and high-quality online education. Our platform offers a wide range of courses designed to help you achieve your academic and professional goals.
+    </p>
+  </div>
+
+  <!-- Image -->
+  <div class="md:w-1/2 flex justify-center">
+    <img class="w-80 mt-6 md:mt-0 rounded-md" src="https://media.istockphoto.com/id/1269224972/vector/human-raised-hand-icon-vector-for-your-web-site-design-logo-app-ui-illustration.jpg?s=612x612&w=0&k=20&c=D1dfM-IixLaYHHGhVZ0HUf-UjPiM1lJofWHwKQ7q188=" alt="Students Image" />
+  </div>
+</section>
+
+
+  <!-- Our Products -->
+  <section class="w-full px-6 py-16 bg-white text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-blue-600 mb-12">Our Products</h2>
+    <div class="flex flex-wrap justify-center gap-8">
+      <!-- Card -->
+      <div class="bg-gray-100 hover:shadow-xl rounded-xl p-6 w-72 transition">
+        <img class="w-32 h-32 mx-auto object-cover rounded-md" src="https://static.vecteezy.com/system/resources/previews/033/176/717/non_2x/online-course-icon-vector.jpg" />
+        <h3 class="text-xl font-semibold mt-4">Live Courses</h3>
+        <p class="text-sm mt-2 text-gray-600">Interactive live sessions by top educators.</p>
+      </div>
+
+      <!-- Card -->
+      <div class="bg-gray-100 hover:shadow-xl rounded-xl p-6 w-72 transition">
+        <img class="w-32 h-32 mx-auto object-cover rounded-md" src="https://static.vecteezy.com/system/resources/previews/033/176/717/non_2x/online-course-icon-vector.jpg" />
+        <h3 class="text-xl font-semibold mt-4">Video Library</h3>
+        <p class="text-sm mt-2 text-gray-600">Access hundreds of recorded lectures anytime.</p>
+      </div>
+
+      <!-- Card -->
+      <div class="bg-gray-100 hover:shadow-xl rounded-xl p-6 w-72 transition">
+        <img class="w-32 h-32 mx-auto object-cover rounded-md" src="https://static.vecteezy.com/system/resources/previews/033/176/717/non_2x/online-course-icon-vector.jpg" />
+        <h3 class="text-xl font-semibold mt-4">1:1 Mentorship</h3>
+        <p class="text-sm mt-2 text-gray-600">Personal guidance to accelerate your growth.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="w-full bg-gray-900 text-white px-6 py-12 md:px-16">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12">
+      <!-- Logo and Socials -->
+      <div class="flex-1">
+        <h4 class="text-2xl font-bold mb-2">EduVerse</h4>
+        <p class="text-sm text-gray-300">Empowering through education</p>
+        <div class="flex gap-4 mt-4">
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/facebook-new.png" alt="Facebook" /></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/twitter.png" alt="Twitter" /></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/linkedin.png" alt="LinkedIn" /></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="flex-1">
+        <h4 class="text-lg font-semibold mb-3">Quick Links</h4>
+        <ul class="space-y-2 text-sm text-gray-300">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="flex-1">
+        <h4 class="text-lg font-semibold mb-3">Contact</h4>
+        <ul class="space-y-2 text-sm text-gray-300">
+          <li>Email: support@eduverse.com</li>
+          <li>Phone: +91 9876543210</li>
+          <li>Address: Mumbai, India</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-10 text-center text-xs text-gray-500">© 2025 EduVerse. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
