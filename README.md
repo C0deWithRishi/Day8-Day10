@@ -26,5 +26,5 @@ This is a fully responsive landing page built using **Tailwind CSS**. It represe
 
 This project was completed during **Day 8–10** of my [#100DaysOfCode](https://www.100daysofcode.com/) challenge, where I’m focusing on mastering full-stack development.
 
-## 📁 Folder Structure
+
 
